@@ -15,14 +15,14 @@ let somaAbaixo = 0;
 for (let i = 0; i < 10; i++) {
     for (let j = 0; j < 10; j++) {
         if (j > i) {
-        somaAcima += matriz[i][j]; // Elementos acima da diagonal principal
+        somaAcima += matriz[i][j]; 
         } else if (i > j) {
-        somaAbaixo += matriz[i][j]; // Elementos abaixo da diagonal principal
+        somaAbaixo += matriz[i][j]; 
         }
     }
 }
 
-console.log(`A soma dos elementos acima da diagonal principal é: ${somaAcima} \nA soma abaixo da diagonal principal é: ${somaAbaixo}`)
+console.log(`A soma dos elementos acima da diagonal principal é: ${somaAcima} \nA soma dos elementos abaixo da diagonal principal é: ${somaAbaixo}`)
 
 /* Fazer um algoritmo para receber uma matriz 10 x 10 e devolver o resultado pedido no
 item:

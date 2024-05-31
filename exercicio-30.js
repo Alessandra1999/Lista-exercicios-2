@@ -23,10 +23,12 @@ for (let i = 0; i < M.length; i++) {
     console.log(print);
 }
 
+console.log("O vetor de soma das linhas é: " + sl + " ");
 for (let i = 0; i < sl.length; i++) {
     console.log(`A soma da ${i + 1}ª linha da matriz é: ${sl[i]}.`);
 }
 
+console.log("O vetor de soma das colunas é: " + sc + " ");
 for (let i = 0; i < sc.length; i++) {
     console.log(`A soma da ${i + 1}ª coluna da matriz é: ${sc[i]}.`);
     }

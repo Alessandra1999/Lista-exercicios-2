@@ -17,9 +17,7 @@ for (let i = 0; i < M.length; i++) {
     }
 }
 
-for (let i = 0; i < V.length; i++) {
-    console.log(V[i]);
-}
+console.log(V + " ");
 
 /* Elaborar um algoritmo que leia uma matriz M(6,6) e um valor A. Após a leitura,
 multiplicar a matriz M pelo valor A e colocar os valores da matriz multiplicados por A em

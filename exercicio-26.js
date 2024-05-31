@@ -18,7 +18,7 @@ for (let i = 0; i < A.length; i++) {
 
 console.log("Matriz Produto P:")
 for (let i = 0; i < A.length; i++) {
-  console.log(P[i]);
+  console.log(P[i] + " ");
 }
 
 /* Dadas duas matrizes numéricas A[1..3,1..5] e B[1..3,1..5], calcular a matriz produto
