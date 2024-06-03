@@ -1,12 +1,8 @@
-let vetorNumeros = [];
 let vetorPar = [];
 let vetorImpar = [];
 let numero = 0;
 
-for (let i = 0; i < 30; i++) {
-    numero = (parseInt(Math.random() * 100 + 1));
-    vetorNumeros.push(numero);
-}
+let vetorNumeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30];
 
 console.log("Vetor Original: " + vetorNumeros);
 
@@ -24,10 +20,8 @@ for (let i = 0; i < vetorNumeros.length; i++) {
             console.log("Vetor Ímpar: " + vetorImpar);
             vetorImpar = [];
         }
-    }
-     
+    }  
 } 
-
 
 
 /* Elaborar um algoritmo que leia um conjunto de 30 valores e os coloca em 2 vetores

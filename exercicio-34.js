@@ -11,9 +11,9 @@ function gerarMatriz(linhas, colunas, min, max) {
     return matriz;
 }
 
-let matriz = gerarMatriz(50, 50, 1, 10);
+let matriz = gerarMatriz(50, 50, 1, 10); 
 
-console.log("Matriz principal:")
+console.log("Matriz principal:");
 matriz.forEach(linha => console.log(linha.join(', ')));
 
 let matrizMultiplicada = [];

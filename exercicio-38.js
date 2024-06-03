@@ -16,7 +16,7 @@ else if (identificador == 2) {
     for (let i = 0; i < vetor.length; i++) {
         produto *= vetor[i];
     }
-    console.log("A soma dos elementos é: " + produto);
+    console.log("O produto dos elementos é: " + produto);
 }
 else if (identificador == 3) {
     let soma = 0;

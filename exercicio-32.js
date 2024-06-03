@@ -14,7 +14,7 @@ function gerarMatriz(linhas, colunas, min, max) {
 let M = gerarMatriz(12, 13, 1, 20);
 
 console.log("Matriz M:")
-M.forEach(linha => console.log(linha.join(', ')));
+M.forEach(linha => console.log(linha.join(' ')));
 
 let modificada = [];
 
