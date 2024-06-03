@@ -7,6 +7,8 @@ const dados = {
     notasTrimestre3: [8, 9, 9, 10, 7]
 }
 
+console.log(filtrar(dados));
+
 function filtrar(objeto) {
     let resultado = {};
     
@@ -19,7 +21,6 @@ function filtrar(objeto) {
     return resultado;
 }
 
-console.log(filtrar(dados));
 
 /* Crie um objeto chamado dados que contém várias propriedades, incluindo números,
 strings e arrays. Escreva uma função que retorne um novo objeto apenas com as

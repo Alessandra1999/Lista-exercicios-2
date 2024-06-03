@@ -1,9 +1,13 @@
 const obj1 = {a: 14, b: 7, c: 10, d: 55, e: 13};
 const obj2 = {b: 5, e: 14, f: 56};
 
-let combinado = {...obj1, ...obj2};
+console.log(combinar(obj1, obj2));
 
-console.log(combinado);
+
+
+function combinar(const1, const2) {
+    return {...const1, ...const2};
+}
 
 
 
