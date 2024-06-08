@@ -1,0 +1,7 @@
+Instruções para rodar os códigos localmente:
+
+- Clonar o repositório na sua máquina (abra o git Bash e digite "git clone" + link do repositório);
+- Abrir no Visual Studio Code;
+- Abrir o terminal do VSCode e digitar "npm install";
+- Verificar se foram instalados os arquivos .json e a pasta node_modules;
+- Está pronto para rodar os códigos dos exercícios, de preferência no terminal.

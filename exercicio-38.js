@@ -2,7 +2,8 @@ const prompt = require('prompt-sync')();
 
 let vetor = [11, 2, 43, 24, 35, 6];
 
-let identificador = parseInt(prompt("Digite 1 para mostrar a soma dos elementos; 2 para mostrar o produto dos elementos; 3 para mostrar a média dos elementos; 4 para mostrar o vetor em ordem crescente; 5 para mostrar o vetor: "));
+console.log("1- soma dos elementos \n2- produto dos elementos \n3- média dos elementos \n4- ordene os elementos em ordem crescente \n5- mostre o vetor.");
+let identificador = parseInt(prompt("Escolha uma opção: "));
 
 if (identificador == 1) {
     let soma = 0;
